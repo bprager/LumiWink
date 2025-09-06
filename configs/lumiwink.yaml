@@ -1,0 +1,28 @@
+emotion_profiles:
+  amused:
+    pupil: {size: 0.7, pulse_hz: 0.8}
+    brow: {shape: asym_up}
+    aura: {h: 20, s: 0.7, v: 0.7}
+    servo: {tilt: 8, nod_amp: 0, micro_saccade: 0.3}
+    haptic: {pattern: tick}
+    ttl_ms: 2000
+  annoyed:
+    pupil: {size: 0.3}
+    brow: {shape: furrow}
+    aura: {h: 315, s: 0.7, v: 0.5}
+    servo: {shake_amp: 3, shake_hz: 2.0}
+    haptic: {pattern: buzz_short}
+    ttl_ms: 1500
+  excited:
+    pupil: {size: 0.9, pulse_hz: 1.6}
+    brow: {shape: high_arc}
+    aura: {h: 25, s: 0.9, v: 1.0}
+    servo: {nod_amp: 4, nod_hz: 1.5}
+    haptic: {pattern: tick_double}
+    ttl_ms: 2000
+rate_limits:
+  annoyed: {min_interval_ms: 60000}
+night_palette:
+  dim: true
+  max_v: 0.4
+

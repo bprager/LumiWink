@@ -1,0 +1,6 @@
+{"ts": 1757122816.438071, "kind": "state", "data": {"from": "idle", "to": "attend"}}
+{"ts": 1757122816.438238, "kind": "wake", "data": {"reason": "hotword"}}
+{"ts": 1757122816.438276, "kind": "state", "data": {"from": "attend", "to": "listen"}}
+{"ts": 1757122816.438624, "kind": "state", "data": {"from": "listen", "to": "speak"}}
+{"ts": 1757122816.5422819, "kind": "state", "data": {"from": "speak", "to": "listen"}}
+{"ts": 1757122816.5426629, "kind": "state", "data": {"from": "listen", "to": "speak"}}
